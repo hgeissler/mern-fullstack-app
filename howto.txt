@@ -1,0 +1,6 @@
+git init
+npm init -y
+npm i -S concurrently
+package.json > 
+  "start": "concurrently \"cd backend && node server.js\" \"cd client && npm start\""
+  
